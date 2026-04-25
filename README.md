@@ -3,6 +3,8 @@ This project generates a 3D point cloud and surface mesh from a single RGB image
 The pipeline combines a pretrained monocular depth model, GLPN, with 3D processing tools from Open3D to produce a pseudo-3D reconstruction of the scene.
 Unlike traditional photogrammetry, this approach does not use multiple views or triangulation. Instead, depth is inferred from learned visual priors.
 
+#![sample](cars.png)
+
 # What it does
 - Loads an input image
 - Predicts a depth map using a pretrained model
