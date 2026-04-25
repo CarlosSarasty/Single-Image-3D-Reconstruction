@@ -4,17 +4,17 @@ The pipeline combines a pretrained monocular depth model, GLPN, with 3D processi
 Unlike traditional photogrammetry, this approach does not use multiple views or triangulation. Instead, depth is inferred from learned visual priors.
 
 # What it does
-Loads an input image
-Predicts a depth map using a pretrained model
-Converts the RGB image and depth map into an RGB-D representation
-Projects pixels into 3D using a pinhole camera model
-Generates a point cloud
-Removes outliers and estimates normals
-Reconstructs a surface mesh using Poisson reconstruction
-Visualizes and exports the mesh
+- Loads an input image
+- Predicts a depth map using a pretrained model
+- Converts the RGB image and depth map into an RGB-D representation
+- Projects pixels into 3D using a pinhole camera model
+- Generates a point cloud
+- Removes outliers and estimates normals
+- Reconstructs a surface mesh using Poisson reconstruction
+- Visualizes and exports the mesh
 
 
 # Output
-Depth map visualization
-3D point cloud
-Reconstructed mesh (.obj)
+- Depth map visualization
+- 3D point cloud
+- Reconstructed mesh (.obj)
